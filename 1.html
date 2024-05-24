@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ввод и вывод данных</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a><span class="dot"></span></li>
+        <li><a href="1.html">Ввод и вывод данных</a><span class="dot"></span></li>
+        <li><a href="2.html">Операторы в Python</a><span class="dot"></span></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+    <div class="text">
+    <h2>Ввод и вывод данных</h2>
+      <p>Переменная - это именованный контейнер для заданного значения.</p>
+      <p class="code">
+        <span class="grey"># Пример создания переменных<br></span>
+        <br>
+        age<span class="red"> = </span><span class="purple">19</span>
+        <br>
+        name<span class="red"> = </span><span class="yellow">'Ivan'</span>
+        <br>
+        isActive<span class="red"> = </span><span class="purple">True</span>
+    </p>
+    <p class="code">
+        name<span class="red"> = </span><span class="yellow">'Petr'</span>
+        <br>
+        Name<span class="red"> = </span><span class="yellow">'Ivan'</span><br>
+        <br>
+        <span class="grey"># name и Name - это разные переменные</span>
+    </p>
+    <p class="code">
+        <span class="grey"># Имена переменных не могут начинаться с цифры!</span>
+    </p>
+    <p class="text">В Python есть 4 примитивных типа данных:</p>
+    <p class="code">
+        <span class="grey"># int (целые числа)</span>
+        <br>
+        age<span class="red"> = </span><span class="purple">18</span><br>
+        <br>
+        <span class="grey"># float (дробные числа)</span>
+        <br>
+        fraction<span class="red"> = </span><span class="purple">2.5</span><br>
+        <br>
+        <span class="grey"># str (строки)</span>
+        <br>
+        fruit<span class="red"> = </span><span class="yellow">'apple'</span><br>
+        <br>
+        <span class="grey"># bool (правда или ложь)</span>
+        <br>
+        isReady<span class="red"> = </span><span class="purple">True</span> <span class="grey"># всего два значения: True и False</span>
+    </p>
+    <p class="text">Мы можем преобразовывать один тип данных в другой с помощью одноименных функций. Например, число может стать строкой, строка - числом, дробное число - целым.</p>
+    <p class="code">
+        age<span class="red"> = </span><span class="yellow">'22'</span> <span class="grey"># str -> '22'</span>
+        <br>
+        age<span class="red"> = </span><span class="blue">int</span>(age) <span class="grey"># int -> 22</span>
+        <br>
+        age<span class="red"> = </span><span class="blue">float</span>(age) <span class="grey"># float -> 22.0</span>
+        <br>
+        age<span class="red"> = </span><span class="blue">bool</span>(age) <span class="grey"># bool -> True</span>
+    </p>
+    <p class="text">Функция print() выводит данные на экран. </p>
+    <p class="code">
+        name<span class="red"> = </span><span class="yellow">'Maxim'</span>
+        <br>
+        <span class="grey"># В скобках записываются переданные в функцию параметры</span>
+        <br>
+        <span class="blue">print</span>(name)
+    </p>
+    <p class="code">
+        <span class="grey"># Вывод</span>
+        <br>
+        <span class="red">>></span> Maxim
+    </p>
+    <p class="text">Функция print() может принимать несколько входных параметров.</p>
+    <p class="code">
+        <span class="blue">print</span>(<span class="purple">1</span>, <span class="purple">2</span>, <span class="purple">3</span>)
+    </p>
+    <p class="code">
+        <span class="grey"># Вывод</span>
+        <br>
+        <span class="red">>></span> 1 2 3
+    </p>
+    </p>
+    
+  </main>
+  <footer>
+    <p>Тришкин Максим ИСк-206</p>
+  </footer>
+  
+  <div class="message">Просмотр с телефона</div>
+  
+  <div class="top-strip"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
